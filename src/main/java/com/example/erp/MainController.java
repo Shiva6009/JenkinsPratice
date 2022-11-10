@@ -10,6 +10,6 @@ public class MainController {
 	@RequestMapping(value  = "/test" , method = RequestMethod.GET)
 	public String testAPI()
 	{
-		return "Hai I am Shipla , I am Mental";
+		return "I am Lokesh, I am Manager in Nsoft";
 	}
 }
