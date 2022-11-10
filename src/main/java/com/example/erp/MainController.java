@@ -10,6 +10,6 @@ public class MainController {
 	@RequestMapping(value  = "/test" , method = RequestMethod.GET)
 	public String testAPI()
 	{
-		return "API is Running Properly";
+		return "API is Running Properly, This is for Auto Build Check";
 	}
 }
